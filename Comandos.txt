@@ -1,2 +1,11 @@
 code . -> Entrar a VS Code
 touch index.html -> Crea el archivo html con nombre index
+git commit -m "mensaje" -> Crea el commit
+git log -> Historial de commit
+
+(*) Para que los cambios me los haga ahí
+git remote add origin https://github.com/lauracardenasgomez/pruebaClaseGit
+git branch -M main
+git push -u origin main
+
+https://github.com/lauracardenasgomez/pruebaClaseGit.git
