@@ -1,0 +1,2 @@
+code . -> Entrar a VS Code
+touch index.html -> Crea el archivo html con nombre index
