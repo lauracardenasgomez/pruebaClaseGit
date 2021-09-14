@@ -7,6 +7,8 @@ mkdir -> Crear una carpeta
 touch main.css -> Hoja de estilos
 git diff -> Ver cambios con respecto al commit anterior
 git checkout . (o el id del commit)-> Revertir cambios antes del push
+git branch develop -> crear una nueva rama
+git push origin develop -> crea la rama en el repo
 
 (*) Para que los cambios me los haga ahí
 git remote add origin https://github.com/lauracardenasgomez/pruebaClaseGit
@@ -14,3 +16,7 @@ git branch -M main
 git push -u origin main
 
 https://github.com/steven4389/ciclo3MisionTic
+
+(*) Para hacer merge
+git checkout main -> ir al branch principal
+git merge develop 
