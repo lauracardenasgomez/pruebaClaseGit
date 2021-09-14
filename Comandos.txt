@@ -1,11 +1,12 @@
 code . -> Entrar a VS Code
 touch index.html -> Crea el archivo html con nombre index
+git add . -> para que suba toods los archivos
 git commit -m "mensaje" -> Crea el commit
 git log -> Historial de commit
+mkdir -> Crear una carpeta
+touch main.css -> Hoja de estilos
 
 (*) Para que los cambios me los haga ahí
 git remote add origin https://github.com/lauracardenasgomez/pruebaClaseGit
 git branch -M main
 git push -u origin main
-
-https://github.com/lauracardenasgomez/pruebaClaseGit.git
